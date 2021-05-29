@@ -121,7 +121,7 @@ Watch us on YouTube: link:$$http://www.youtube.com/oreillymedia$$[]
 === Contacting the Author
 
 You can contact me, Andreas M. Antonopoulos, on my personal site:
-link:$$https://antonopoulos.com/$$[]
+link:$$https://aantonop.com/$$[]
 
 Information about _Mastering Bitcoin_ as well as the Open Edition and translations are available on:
 link:$$https://bitcoinbook.info/$$[]
@@ -132,7 +132,7 @@ link:$$https://facebook.com/AndreasMAntonopoulos$$[]
 Follow me on Twitter:
 link:$$https://twitter.com/aantonop$$[]
 
-Follow me on Linkedin:
+Follow me on LinkedIn:
 link:$$https://linkedin.com/company/aantonop$$[]
 
 Many thanks to all my patrons who support my work through monthly donations. You can follow my Patreon page here:

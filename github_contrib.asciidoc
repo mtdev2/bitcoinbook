@@ -11,15 +11,21 @@ The following is a list of notable GitHub contributors:
 * Alex Waters (alexwaters)
 * Andrew Donald Kennedy (grkvlt)
 * Andrey Esaulov (andremaha)
+* andronoob
+* AnejaBK
+* ariesunny
 * Arthur O'Dwyer (Quuxplusone)
 * bargitta
+* Basem Alasi (Bamskki)
 * bisqfan
 * bitcoinctf
 * blip151
 * Bryan Gmyrek (physicsdude)
+* Carlos Sims (simsbluebox)
 * Casey Flynn (cflynn07)
 * cclauss
 * Chapman Shoop (belovachap)
+* chrisd95
 * Christie D'Anna (avocadobreath)
 * Cihat Imamoglu (cihati)
 * Cody Scott (Siecje)
@@ -37,6 +43,7 @@ The following is a list of notable GitHub contributors:
 * Dimitris Tsapakidis (dimitris-t)
 * Dirk Jäckel (biafra23)
 * Dmitry Marakasov (AMDmi3)
+* drakos (Jolly-Pirate)
 * drstrangeM
 * Ed Eykholt (edeykholt)
 * Ed Leafe (EdLeafe)
@@ -51,6 +58,7 @@ The following is a list of notable GitHub contributors:
 * Evlix
 * fabienhinault
 * Fan (whiteath)
+* Felix Filozov (ffilozov)
 * Francis Ballares (fballares)
 * François Wirion (wirion)
 * Frank Höger (francyi)
@@ -60,11 +68,13 @@ The following is a list of notable GitHub contributors:
 * Geremia
 * Gerry Smith (Hermetic)
 * gmr81
+* Greg (in3rsha)
 * Gregory Trubetskoy (grisha)
 * Gus (netpoe)
 * halseth
 * harelw
 * Harry Moreno (morenoh149)
+* Hennadii Stepanov (hebasto)
 * Holger Schinzel (schinzelh)
 * Ioannis Cherouvim (cherouvim)
 * Ish Ot Jr. (ishotjr)
@@ -76,6 +86,7 @@ The following is a list of notable GitHub contributors:
 * Jordan Baczuk (JBaczuk)
 * Jeremy Bokobza (bokobza)
 * JerJohn15
+* jerzybrzoska
 * Jimmy DeSilva (jimmydesilva)
 * Jo Wo (jowo-io)
 * Joe Bauers (joebauers)
@@ -86,25 +97,34 @@ The following is a list of notable GitHub contributors:
 * jwbats
 * Kai Bakker (kaibakker)
 * kollokollo
+* krupawan5618
+* kynnjo
+* Liangzx
 * lightningnetworkstores
 * lilianrambu
 * Liu Yue (lyhistory)
+* Lobbelt
 * Lucas Betschart (lclc)
 * Magomed Aliev (30mb1)
 * Mai-Hsuan Chia (mhchia)
 * Marco Falke (MarcoFalke)
 * María Martín (mmartinbar)
+* Marcus Kiisa (mkiisa)
+* Mark Erhardt (Xekyo)
 * Mark Pors (pors)
 * Martin Harrigan (harrigan)
 * Martin Vseticka (MartyIX)
 * Marzig (marzig76)
 * Matt McGivney (mattmcgiv)
+* Matthijs Roelink (Matthiti)
 * Maximilian Reichel (phramz)
 * Michalis Kargakis (kargakis)
 * Michael C. Ippolito (michaelcippolito)
 * Michael Galero (mikong)
 * Michael Newman (michaelbnewman)
 * Mihail Russu (MihailRussu)
+* mikew (mikew)
+* milansismanovic
 * Minh T. Nguyen (enderminh)
 * montvid
 * Morfies (morfies)
@@ -113,10 +133,17 @@ The following is a list of notable GitHub contributors:
 * nekonenene
 * Nhan Vu (jobnomade)
 * Nicholas Chen (nickycutesc)
+* Ning Shang (syncom)
+* Oge Nnadi (ogennadi)
+* Oliver Maerz (OliverMaerz)
 * Omar Boukli-Hacene (oboukli)
+* Óscar Nájera (Titan-C)
 * Parzival (Parz-val)
+* Paul Desmond Parker (sunwukonga)
 * Philipp Gille (philippgille)
 * ratijas
+* rating89us
+* Raul Siles (raulsiles)
 * Reproducibility Matters (TheCharlatan)
 * Reuben Thomas (rrthomas)
 * Robert Furse (Rfurse)
@@ -125,12 +152,17 @@ The following is a list of notable GitHub contributors:
 * rszheng
 * Ruben Alexander (hizzvizz)
 * Sam Ritchie (sritchie)
+* Samir Sadek (netsamir)
+* Sandro Conforto (sandroconforto)
 * Sanjay Sanathanan (sanjays95)
 * Sebastian Falbesoner (theStack)
+* Sergei Tikhomirov (s-tikhomirov)
 * Sergej Kotliar (ziggamon)
 * Seiichi Uchida (topecongiro)
 * shaysw
 * Simon de la Rouviere (simondlr)
+* simone-cominato
+* sindhoor7
 * Stacie (staciewaleyko)
 * Stephan Oeste (Emzy)
 * Stéphane Roche (Janaka-Steph)
@@ -138,19 +170,25 @@ The following is a list of notable GitHub contributors:
 * Thiago Arrais (thiagoarrais)
 * Thomas Kerin (afk11)
 * Tochi Obudulu (tochicool)
+* Tosin (tkuye)
+* Vasil Dimov (vasild)
 * venzen
 * Vlad Stan (motorina0)
 * Vijay Chavda (VijayChavda)
 * Vincent Déniel (vincentdnl)
 * weinim
+* wenxiaolong (QingShiLuoGu)
 * wenzhenxiang
 * Will Binns (wbnns)
 * wintercooled
 * wjx
+* wll2007
 * Wojciech Langiewicz (wlk)
 * Yancy Ribbens (yancyribbens)
 * yjjnls
 * Yoshimasa Tanabe (emag)
 * yuntai
 * yurigeorgiev4
-* Zheng Jia (zhengjia)((("", startref="acknowledge0")))
+* Zheng Jia (zhengjia)
+* Zhou Liang (zhouguoguo)((("", startref="acknowledge0")))
+

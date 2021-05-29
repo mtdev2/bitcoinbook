@@ -126,7 +126,7 @@ In the next round, Emma's software creates and signs another commitment transact
 
 In this way, Emma's software continues to send commitment transactions to Fabian's server in exchange for streaming video. The balance of the channel gradually accumulates in favor of Fabian, as Emma consumes more seconds of video. Let's say Emma watches 600 seconds (10 minutes) of video, creating and signing 600 commitment transactions. The last commitment transaction (#600) will have two outputs, splitting the balance of the channel, 6 millibits to Fabian and 30 millibits to Emma.
 
-Finally, Emma clicks "Stop" to stop streaming video. Either Fabian or Emma can now transmit the final state transaction for settlement. This last transaction is the _settlement transaction_ and pays Fabian for all the video Emma consumed, refunding the remainder of the funding transaction to Emma.
+Finally, Emma selects "Stop" to stop streaming video. Either Fabian or Emma can now transmit the final state transaction for settlement. This last transaction is the _settlement transaction_ and pays Fabian for all the video Emma consumed, refunding the remainder of the funding transaction to Emma.
 
 <<video_payment_channel>> shows the channel between Emma and Fabian and the commitment transactions that update the balance of the channel.
 
@@ -146,7 +146,7 @@ image::images/mbc2_1203.png["Emma's payment channel with Fabian, showing the com
 
 Both of these problems can be solved with timelocks&#x2014;let's look at how we could use transaction-level timelocks (+nLocktime+).
 
-Emma cannot risk funding a 2-of-2 multisig unless she has a guaranteed refund. To solve this problem, Emma constructs the funding and refund transaction at the same time. She signs the funding transaction but doesn't transmit it to anyone. Emma transmits only the refund transaction to Fabian and obtains his signature.
+Emma cannot risk funding a 2-of-2 multisig unless she has a guaranteed refund. To solve this problem, Emma constructs the funding and refund transactions at the same time. She signs the funding transaction but doesn't transmit it to anyone. Emma transmits only the refund transaction to Fabian and obtains his signature.
 
 The refund transaction acts as the first commitment transaction and its timelock establishes the upper bound for the channel's life. In this case, Emma could set the +nLocktime+ to 30 days or 4320 blocks into the future. All subsequent commitment transactions must have a shorter timelock, so that they can be redeemed before the refund transaction.
 
@@ -197,7 +197,7 @@ Input: 2-of-2 funding output, signed by Irene
 Output 0 <5 bitcoin>:
     <Irene's Public Key> CHECKSIG
 
-Output 1:
+Output 1 <5 bitcoin>:
     <1000 blocks>
     CHECKSEQUENCEVERIFY
     DROP
@@ -212,7 +212,7 @@ Input: 2-of-2 funding output, signed by Hitesh
 Output 0 <5 bitcoin>:
     <Hitesh's Public Key> CHECKSIG
 
-Output 1:
+Output 1 <5 bitcoin>:
     <1000 blocks>
     CHECKSEQUENCEVERIFY
     DROP
@@ -258,7 +258,7 @@ CHECKSIG
 
 Irene can confidently sign this transaction, since if transmitted it will immediately pay her what she is owed. Hitesh holds the transaction, but knows that if he transmits it in a unilateral channel closing, he will have to wait 1000 blocks to get paid.
 
-When the channel is advanced to the next state, Hitesh has to _revoke_ this commitment transaction before Irene agrees to sign the next commitment transaction. To do that, all he has to do is send his half of the _revocation key_ to Irene. Once Irene has both halves of the  revocation secret key for this commitment, she can sign the next commitment with confidence. She knows that if Hitesh tries to cheat by publishing the prior commitment, she can use the revocation key to redeem Hitesh's delayed output. _If Hitesh cheats, Irene gets BOTH outputs_. Meanwhile, Hitesh only has half the revocation secret for that revocation public key and can't redeem the output until 1000 blocks. Irene will be able to redeem the output and punish Hitesh before the 1000 blocks have elapsed.
+When the channel is advanced to the next state, Hitesh has to _revoke_ this commitment transaction before Irene agrees to sign the next commitment transaction. To do that, all he has to do is send his half of the _revocation key_ to Irene. Once Irene has both halves of the revocation secret key for this commitment, she can sign the next commitment with confidence. She knows that if Hitesh tries to cheat by publishing the prior commitment, she can use the revocation key to redeem Hitesh's delayed output. _If Hitesh cheats, Irene gets BOTH outputs_. Meanwhile, Hitesh only has half the revocation secret for that revocation public key and can't redeem the output until 1000 blocks. Irene will be able to redeem the output and punish Hitesh before the 1000 blocks have elapsed.
 
 The revocation protocol is bilateral, meaning that in each round, as the channel state is advanced, the two parties exchange new commitments, exchange revocation secrets for the previous commitments, and sign each other's new commitment transactions. As they accept a new state, they make the prior state impossible to use, by giving each other the necessary revocation secrets to punish any cheating.
 
